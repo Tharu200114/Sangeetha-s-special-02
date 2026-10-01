@@ -1,0 +1,983 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Sangeetha Baby ❤️</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+
+<!-- =================================================
+     BACKGROUND MUSIC
+================================================== -->
+
+<audio
+    id="birthdaySong"
+    preload="auto"
+>
+    <source
+        src="music/birthdaysong.mp3"
+        type="audio/mpeg"
+    >
+</audio>
+
+
+<audio
+    id="friendsSong"
+    preload="auto"
+    playsinline
+>
+    <source
+        src="music/friends-song.mp3"
+        type="audio/mpeg"
+    >
+</audio>
+
+
+<audio
+    id="storySong"
+    preload="auto"
+    playsinline
+>
+    <source
+        src="music/story-song.mp3"
+        type="audio/mpeg"
+    >
+</audio>
+
+
+<!-- =================================================
+     FINAL SURPRISE MUSIC
+================================================== -->
+
+<audio
+    id="finalSurpriseSong"
+    preload="auto"
+>
+    <source
+        src="music/final-surprise.mp3"
+        type="audio/mpeg"
+    >
+</audio>
+
+
+
+<!-- =================================================
+     FULL PAGE ANIMATED BACKGROUND
+================================================== -->
+
+<div class="magic-background">
+
+    <div class="glow glow-1"></div>
+
+    <div class="glow glow-2"></div>
+
+    <div class="glow glow-3"></div>
+
+
+    <div class="background-particles">
+
+        <span>✨</span>
+        <span>❤️</span>
+        <span>✦</span>
+        <span>💗</span>
+        <span>•</span>
+        <span>✨</span>
+        <span>♡</span>
+        <span>•</span>
+        <span>💖</span>
+        <span>✦</span>
+
+        <span>•</span>
+        <span>✨</span>
+        <span>❤️</span>
+        <span>•</span>
+        <span>💗</span>
+        <span>✦</span>
+        <span>✨</span>
+        <span>•</span>
+        <span>♡</span>
+        <span>💖</span>
+
+    </div>
+
+</div>
+
+
+
+<!-- =================================================
+     PASSWORD SCREEN
+================================================== -->
+
+<div
+    class="container"
+    id="loginScreen"
+>
+
+    <h1>
+        SYSTEM LOCKED 🔒
+    </h1>
+
+    <p>
+        Only one special person can access this...
+    </p>
+
+
+    <input
+        type="password"
+        id="passwordInput"
+        placeholder="Enter password"
+        autocomplete="off"
+    >
+
+
+    <button
+        id="unlockButton"
+        type="button"
+    >
+        UNLOCK 🗝️
+    </button>
+
+</div>
+
+
+
+<!-- =================================================
+     BIRTHDAY SCREEN
+================================================== -->
+
+<div
+    class="birthday-screen"
+    id="birthdayScreen"
+    style="display: none;"
+>
+
+    <div class="birthday-decorations">
+
+        <span class="balloon balloon1">
+            🎈
+        </span>
+
+        <span class="balloon balloon2">
+            🎈
+        </span>
+
+        <span class="balloon balloon3">
+            🎈
+        </span>
+
+        <span class="balloon balloon4">
+            🎈
+        </span>
+
+
+        <span class="heart heart1">
+            ❤️
+        </span>
+
+        <span class="heart heart2">
+            💕
+        </span>
+
+        <span class="heart heart3">
+            💗
+        </span>
+
+        <span class="heart heart4">
+            💖
+        </span>
+
+
+        <span class="sparkle sparkle1">
+            ✨
+        </span>
+
+        <span class="sparkle sparkle2">
+            ✨
+        </span>
+
+        <span class="sparkle sparkle3">
+            ✨
+        </span>
+
+    </div>
+
+
+
+    <div class="photo-wrapper">
+
+        <img
+            src="images/sangeetha.jpg"
+            alt="Sangeetha Baby"
+            class="birthday-photo"
+        >
+
+    </div>
+
+
+
+    <div class="birthday-title">
+
+        <h1>
+            Happy Birthday ❤️
+        </h1>
+
+        <h2>
+            Sangeetha Baby
+        </h2>
+
+        <p>
+            On this beautiful day, my little angel came
+            into this world and made it a little brighter.
+            👼🏻❤️🌎✨
+        </p>
+
+    </div>
+
+
+
+    <button
+        id="continueButton"
+        type="button"
+    >
+
+        KEEP GOING, BABY...
+
+        <span class="button-heart">
+            ♥
+        </span>
+
+    </button>
+
+
+</div>
+
+
+
+<!-- =================================================
+     MY BIRTHDAY MESSAGE
+================================================== -->
+
+<div
+    class="message-screen"
+    id="messageScreen"
+    style="display: none;"
+>
+
+    <h1>
+        💌 THIS WISH FROM ME
+    </h1>
+
+
+    <div class="message-card">
+
+        <p>
+            Happy Birthday 🎂 Sangeetha Kutty 🍰🥳
+        </p>
+
+        <p>
+            One year ago, we were just friends,
+            but slowly you became very special to me.
+        </p>
+
+        <p>
+            Even though we are far from each other,
+            our calls and talks brought us closer.
+        </p>
+
+        <p>
+            I never thought I would fall in love with you,
+            but it happened so naturally.
+        </p>
+
+        <p>
+            I will always be honest with you,
+            care for you, and never leave you alone.
+        </p>
+
+        <p>
+            I hope you will be my future,
+            and I love you so much, Thangam. 🫂❤️
+        </p>
+
+    </div>
+
+
+
+    <button
+        id="friendsButton"
+        type="button"
+    >
+
+        Ready For A Surprise You Never Expected?😁
+
+    </button>
+
+
+</div>
+
+
+
+<!-- =================================================
+     FRIENDS & FAMILY WISHES
+================================================== -->
+
+<div
+    class="friends-wishes-screen"
+    id="friendsWishesScreen"
+    style="display: none;"
+>
+
+    <h1 class="wishes-title">
+
+        <span>
+            Wishes From Your
+        </span>
+
+        <br>
+
+        <strong>
+            👩🏻‍🤝‍👩🏼👫🏻 Friends &amp; Fam 👩‍👩‍👧‍👦
+        </strong>
+
+    </h1>
+
+
+    <p class="friends-intro">
+
+        A few special words from the people
+        who care about you 🤎
+
+    </p>
+
+
+    <div
+        id="wishesContainer"
+        class="wishes-container"
+    ></div>
+
+
+
+    <button
+        id="storyButton"
+        type="button"
+        style="display: none;"
+    >
+
+        OUR STORY 📖🔒
+
+    </button>
+
+
+</div>
+
+
+
+<!-- =================================================
+     OUR STORY
+================================================== -->
+
+<div
+    class="our-story-screen"
+    id="ourStoryScreen"
+    style="display: none;"
+>
+
+
+    <!-- =================================================
+         STORY FIXED IMAGE
+    ================================================== -->
+
+    <div
+        class="story-fixed-image"
+        id="storyImage"
+    >
+
+        <img
+            src="images/ourstoryimage.jpg"
+            alt="Our Story"
+        >
+
+    </div>
+
+
+
+    <div class="story-content">
+
+
+        <h1>
+            Our Story 📝
+        </h1>
+
+
+        <p class="story-intro">
+
+            Sometimes the most beautiful stories begin
+            without us even realizing it 🫀
+
+        </p>
+
+
+        <!-- STORY 01 -->
+
+        <div class="story-card">
+
+            <div class="story-number">
+                01
+            </div>
+
+            <h2>
+                Just Friends 👫🏻🤍
+            </h2>
+
+            <p>
+                About one year ago, we were just friends.
+
+                At that time, I never thought that
+                you would become this special to me.
+
+                I never imagined that my feelings for you
+                would slowly change into something more.
+            </p>
+
+        </div>
+
+
+
+        <!-- STORY 02 -->
+
+        <div class="story-card">
+
+            <div class="story-number">
+                02
+            </div>
+
+            <h2>
+                The First Feeling 😇🫣
+            </h2>
+
+            <p>
+                One day, I saw your Instagram page.
+
+                I started looking at your posts,
+                and honestly, your cuteness caught my attention.
+
+                The more I saw you,
+                the more curious I became about you.
+
+                I didn't know it at that time,
+                but that was the beginning of my feelings for you.
+            </p>
+
+        </div>
+
+
+
+        <!-- STORY 03 -->
+
+        <div class="story-card">
+
+            <div class="story-number">
+                03
+            </div>
+
+            <h2>
+                Something Started Changing 💞
+            </h2>
+
+            <p>
+                At first, I didn't understand
+                what was happening to me.
+
+                You were just my friend.
+
+                But slowly, talking to you
+                started feeling different.
+
+                Seeing your posts made me smile,
+                and talking with you became
+                one of my favourite things.
+            </p>
+
+        </div>
+
+
+
+        <!-- STORY 04 -->
+
+        <div class="story-card">
+
+            <div class="story-number">
+                04
+            </div>
+
+            <h2>
+                We Became Closer 👩🏻‍❤️‍👨🏼
+            </h2>
+
+            <p>
+                As the days passed,
+                I started wanting to talk to you more.
+
+                I started waiting for your calls
+                and wanting to hear your voice.
+
+                Our little conversations slowly
+                brought us closer.
+
+                Even though we were far from each other
+                and had never met in person,
+                somehow you became very close to my heart.
+            </p>
+
+        </div>
+
+
+
+        <!-- STORY 05 -->
+
+        <div class="story-card">
+
+            <div class="story-number">
+                05
+            </div>
+
+            <h2>
+                My Crush Became Love 💓
+            </h2>
+
+            <p>
+                Then one day, I finally understood
+                what I was feeling.
+
+                It wasn't just friendship anymore.
+
+                It wasn't just a little crush.
+
+                I was falling in love with you.
+
+                I never thought that simply seeing
+                your Instagram page one day
+                would become the beginning
+                of something so special.
+            </p>
+
+        </div>
+
+
+
+        <!-- STORY 06 -->
+
+        <div class="story-card">
+
+            <div class="story-number">
+                06
+            </div>
+
+            <h2>
+                From Friend To Someone Special 🥹❤️
+            </h2>
+
+            <p>
+                First, you were my friend.
+
+                Then, you became my crush.
+
+                And slowly, without even realizing it,
+                you became the person I love.
+
+                When I look back now,
+                I still can't believe how everything started.
+
+                It all began with one simple Instagram page,
+                and somehow, that little moment
+                brought you into my heart.
+            </p>
+
+        </div>
+
+
+
+        <!-- STORY 07 -->
+
+        <div class="story-card final-story">
+
+            <div class="story-number">
+                07
+            </div>
+
+            <h2>
+                Our Story Continues...
+            </h2>
+
+            <p>
+                Today, you are someone
+                very special in my life.
+
+                I don't know what our future will look like.
+
+                But if I could choose,
+                I would want you to be a part of it.
+
+                Whenever I think about our story,
+                I smile because I never expected
+                that a simple friendship
+                could become something this beautiful.
+
+                From just being friends,
+                to becoming my crush,
+                and then becoming the person I love...
+
+                I will always be thankful
+                for the day our story began.
+            </p>
+
+
+            <div class="story-ending">
+
+                I love you so much, Thangam 🫀🫶🏻
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             SURPRISE BUTTON
+        ================================================== -->
+
+        <button
+            id="songButton"
+            type="button"
+        >
+
+            I MADE SOMETHING FOR YOU 💫
+
+        </button>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =================================================
+     SURPRISE VIDEO SCREEN
+================================================== -->
+
+<div
+    id="surpriseVideoScreen"
+    class="surprise-video-screen"
+    style="display: none;"
+>
+
+    <div class="surprise-video-content">
+
+
+        <h1 class="made-for-you-title">
+
+            <span>
+            Oii
+            </span>
+
+            <strong>
+            Ammu 🫣🩵
+            </strong>
+
+        </h1>
+
+
+        <!-- =================================================
+             SURPRISE VIDEO
+        ================================================== -->
+
+        <div class="surprise-video-wrapper">
+
+            <video
+                id="surpriseVideo"
+                class="surprise-video"
+                controls
+                playsinline
+                preload="metadata"
+            >
+
+                <source
+                    src="video/surprise.mp4"
+                    type="video/mp4"
+                >
+
+                Your browser does not support this video.
+
+            </video>
+
+        </div>
+
+
+        
+
+
+        <!-- =================================================
+             FINAL MYSTERY BUTTON
+        ================================================== -->
+
+        <div class="final-surprise-area">
+
+            <p class="final-surprise-text">
+
+                Okay Baby… My Final Surprise
+                <br>
+                Gift For You 🎁
+
+            </p>
+
+
+            <button
+                id="finalSurpriseButton"
+                class="final-surprise-button"
+                type="button"
+            >
+
+                Touch to Unlock the Final surpise 🔒🗝️
+
+            </button>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     FINAL MYSTERY GIFT
+========================================================= -->
+
+<div
+    id="finalMysteryScreen"
+    class="final-mystery-screen"
+    style="display: none;"
+>
+
+    <div class="mystery-content">
+
+
+        <!-- TITLE -->
+
+        <p class="mystery-small-title">
+
+            One Last Little Surprise for You 🫵🏻
+
+        </p>
+
+
+        <h1>
+
+            Before You Open This Box…
+
+        </h1>
+
+
+
+        <!-- INSTRUCTION -->
+
+        <div class="unboxing-instruction">
+
+            <p>
+
+                Please open this little box exactly where I left it for you 🎁
+
+            </p>
+
+
+            <p>
+
+                That is the special place where this surprise
+                is meant to be opened.🩵
+
+            </p>
+
+
+            <p>
+
+                Before opening it, please take a video on your phone
+                and start recording. 🎥
+
+            </p>
+
+
+            <p>
+
+                Then open the box while recording and send the video to me 🎥
+
+            </p>
+
+
+            <p>
+
+                I want to keep this moment as a beautiful memory forever. 🥹✨
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             MYSTERY GIFT BOX
+        ====================================================== -->
+
+        <div
+            id="giftBox"
+            class="gift-box"
+        >
+
+
+            <!-- GOLD SPARKLES -->
+
+            <div class="gift-sparkles">
+
+                <span>✨</span>
+                <span>✦</span>
+                <span>✨</span>
+                <span>💫</span>
+                <span>✧</span>
+                <span>⭐</span>
+                <span>✨</span>
+                <span>✦</span>
+                <span>💛</span>
+                <span>✨</span>
+                <span>🌟</span>
+                <span>✧</span>
+
+            </div>
+
+
+
+            <!-- GOLD PARTICLES -->
+
+            <div class="gold-particles">
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+
+
+            <!-- GOLDEN LIGHT -->
+
+            <div class="gift-glow"></div>
+
+
+
+            <!-- GIFT LID -->
+
+            <div class="gift-lid">
+
+                <div class="gift-ribbon-horizontal"></div>
+
+            </div>
+
+
+
+            <!-- GIFT BODY -->
+
+            <div class="gift-body">
+
+                <div class="gift-ribbon-vertical"></div>
+
+                <div class="gift-ribbon-horizontal"></div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             FINAL MESSAGE
+        ====================================================== -->
+
+        <div
+            id="giftReveal"
+            class="gift-reveal"
+        >
+
+            <div class="reveal-heart">
+
+                💍
+
+            </div>
+
+
+            <h2>
+
+                You Are Truly Special 🫂
+
+            </h2>
+
+
+            <p>
+
+                Thank you for being such a beautiful part
+                of my memories. 📖❤️✨
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =================================================
+     JAVASCRIPT
+================================================== -->
+
+<script
+    src="script.js"
+    defer
+></script>
+
+
+</body>
+
+</html>
+
